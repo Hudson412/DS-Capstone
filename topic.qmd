@@ -1,0 +1,16 @@
+---
+title: "Data Science Capstone Topic"
+author: "Hudson Colletti"
+format: pdf
+---
+
+# Faculty Advisor
+
+Faculty Advisor: Kyle Wilson
+
+# Topic
+
+Client-facing businesses spend much effort and resources into developing the customer experience through the mood of their storefront. Music is one such avenue that businesses can/should utilize to orchestrate an intentional feeling within consumers. My project aims to decipher whether the atmosphere a business intends to create aligns with the atmosphere its music creates in reality. Every song produced and posted on Spotify involves metrics like tempo (bpm), acousticness, and danceability that stand as unique aspects of each production. The goal is to analyze the metrics that create specific songs, and playlists more broadly, in relation to the slogan/brand language on the company’s website. 
+
+The data aspect of my project primarily consists of a dataset with detail on each individual company. For each of the ~30 companies, I plan to discover public Spotify playlists that are frequently played at the physical location(s) and pull analyses through Chosic. Chosic takes in public links to Spotify playlists and outputs statistics on the list as a whole and songs at an individual level. With that information, I can download a .csv file with values for many metrics that may potentially drive the mood of a song. Additionally, I plan to scrape text from the companies’ websites and place each text into a coded mood category through a set of predetermined categories like energetic vs calm, casual vs fancy, social vs solitude, etc. The advanced data analytic model I plan to utilize but is not limited to is an advanced study design. Rather than treating each song individually as the definition of what music a specific business plays, each track is included in a larger playlist that helps estimate an overall pattern amongst the other included songs. The project further addresses non-independence through the unique data curation and web scraping/text processing involved in observing each business. 
+
