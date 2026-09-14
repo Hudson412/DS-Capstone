@@ -1,0 +1,25 @@
+---
+title: "Data Science Capstone Bibliography"
+author: "Hudson Colletti"
+format: pdf
+---
+
+My project aims to understand how closely related, or unrelated, a brand's language and atmospherics (music) are through looking at the music played inside brick and mortar locations of each business. For scientific basis, this project sparks from previous research done by Ronald Milliman in 1982 & 1986 and K. Douglas Hoffman alongside L.W. Turley in 2002. Milliman's work serves as the empirical anchor, analyzing the effects of background music versus the lack thereof. Furthermore, Milliman's study marked the first statistically significant research in comparing the effects of varied tempo, in BPM, of music on consumers' economic activity. Hoffman and Turley serves as the framework and carries a more influential role in my project. This second source delivers a polished definition of atmospherics and more importantly an argument that atmospheric choices communicate brand image. My project primarily relies on the latter claim as I am delving into the playlists/music choices (atmospheric choice) and drawing a connection to the brand's language/identity rather than treating the music as background music or noise. The emotional dimensions described in their study also directs much of the track features I plan to assess. On top of these two sources, Areni and Kim (1993) looks at music genre as a driver of economic acitivty as opposed to tempo, the independent variable of Milliman's research. Areni's work depicted how classical music can nudge individuals to buy more expensive wine in a retail setting. Together, the three sources lay the framework of my project through both a content and study structure perspective. 
+
+While the sources extensively detail broader effects of background music on economic behavior in consumer-facing settings, my project sits within a gap between the three, that goes further and aims to connect to the intended identity of each brand through its public language. Along with the research studies, I plan to use Chosic, an online playlist analyzer to measure track-specific metrics ranging from danceability to acousticness. The Spotify web app holds an incredibly large number of public playlists, which I will utilize to understand which tracks are frequently played in each company's locations through curated pubic playlists by each company's marketing/branding team. Finally, each company's own website will be used to supply the brand language that I will code/categorize into the intended mood buckets that I set up. 
+
+
+Citations for Research Papers:
+
+Areni, Charles S., and David Kim. “The Influence of Background Music on Shopping Behavior: Classical Versus Top-Forty Music in a Wine Store.” Advances in Consumer Research, vol. 20, no. 1, Jan. 1993, pp. 336–40. EBSCOhost, research.ebsco.com/plink/59ba0c37-1bdc-36e6-9891-065b657004f9.
+
+Hoffman, K. Douglas, and L. W. Turley. “ATMOSPHERICS, SERVICE ENCOUNTERS AND CONSUMER DECISION MAKING: AN INTEGRATIVE PERSPECTIVE.” Journal of Marketing Theory and Practice, vol. 10, no. 3, 2002, pp. 33–47. JSTOR, http://www.jstor.org.ccl.idm.oclc.org/stable/41304272. Accessed 9 Sept. 2026.
+
+Milliman, Ronald E. “The Influence of Background Music on the Behavior of Restaurant Patrons.” Journal of Consumer Research, vol. 13, no. 2, 1986, pp. 286–89. JSTOR, http://www.jstor.org.ccl.idm.oclc.org/stable/2489234. Accessed 9 Sept. 2026.
+
+Citations for Data Sources:
+
+https://www.chosic.com/spotify-playlist-analyzer/
+https://open.spotify.com/
+
+Note: Each individual company website is not included in the sources section but will eventually be included once the list of those included in the project are finalized. 
