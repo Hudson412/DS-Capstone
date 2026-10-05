@@ -1,0 +1,29 @@
+---
+title: "DS Capstone Outline"
+author: "Hudson Colletti"
+format: pdf
+---
+
+# Introduction
+This section will introduce the topics and ideas presented in the capstone project. Descriptions of atmospherics, music composition, and the intersection of atmospherics and sound. Furthermore, the introduction will detail the scope of the project and main question: "Does a brand's language and intended atmosphere align with the music played in physical locations?" After such, a high-level depiction of the methodology implemented and key terminology will be included. All of the compositional metrics (bpm, valence, acousticness) should be explained for readers unfamiliar with each figure. 
+
+# Prior Studies and Background
+This section will detail previous studies regarding music as a form of atmospherics. The papers cited in my bilbliography will be analyzed to both bring the audience up to speed and set the framing for how my methodology works. Information regarding the impact of background music, loudness, tempo, and genre will all be described with their corresponding economic outcome. I plan to emphasize that most previous studies have only considered one brand at a time, so my research project will be unique through looking at music and atmospherics through a multiple brand perspective all at once. 
+
+# Data Sourcing and Creation Pipeline
+This section will guide the reader through the entire process of sourcing and creating the data necessary for carrying out this project. In such, the criteria for selecting each company and their subsequent playlist will be explained. From there, the playlist is run through Chosic's playlist analyzer to determine the compositional metrics at a track level for each company. Over the past decade, Spotify has gone back and forth in changing its data regulations, making it difficult to pull metrics directly from their API. Part of this section will discuss these API changes and this project's method of working around this obstacle. The second, and most difficult, data source is each company's brand language. The section will detail where this data is pulled from and what makes it useful in this project.  
+
+# Breaking Down the Mood of Brand Language
+This section will detail the complex process of scraping text from company websites and preparing it to be handled in R. Additionally, an overview of the method for decoding mood from text will be explained. Along with the chosen process of decoding, this section will address similar options for breaking down the brand language and the reasons against using them for the scope of this project. 
+
+# Visualizations & Dashboard
+An inclusion of visualizations to describe the effects of each variable and trends amongst each musical feature. Additionally, a look into comparing brands based on their brand language and music selection will be shown separately. The goal is to bring readers up to speed with knowledge regarding the effects of each piece of the methodology before providing a final in depth look at the results of the project. 
+
+# Results
+This section aims to give a conclusion as to whether a brand's language predicts the music features played in their physical venues. Along with this broader analysis, individual analyses at a brand by brand level will point out which companies have the largest discrepancies between their "intended" mood and actual atmosphere created through music. Through the use of a mixed-effects model, this project accounts for having many songs nested within each brand's playlist. Other assessments like comparing brands into chains versus boutique/independent stores will be identified as well. 
+
+# Ethical Considerations
+A look into areas where I faced difficulty in remaining ethical while carrying out this project along with cautionary measures taken throughout the process. A few of the key considerations I plan to discuss include: scraping brand language, reproducibility issues because of Spotify's changing restrictions, and the use of public playlists versus recording what is played in each venue. With each consideration, I will explain how each was approached and addressed. 
+
+# Conclusion and Limitations 
+Finally, I will conclude the project with high level observations and any outstanding clarifications. Additionally, limitations that I plan to acknowledge include the size of my sample, the use of public playlists rather than in-store audio, and the difficulty of finding/decoding brand language. Directions and cautions for future research will complement this section along with applications for businesses looking to improve their brand image or achieve economic outcomes through the use of music. 
