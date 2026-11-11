@@ -1,0 +1,18 @@
+---
+title: "Ethical Considerations"
+author: "Hudson Colletti"
+format: pdf
+bibliography: capstone.bib
+---
+
+
+While this project does not directly experiment on humans or require manual collection of personal information, it involves making claims about companies using data it does not control or have complete insight into. The key ethical challenges in the project include how the data was sourced and obtained, fairness to all 30 brands, and bias in the measurement tools. 
+
+# Data Access
+All of the data included in this project is public. On the music side, playlists were selected from each brand’s public Spotify account, and the brand language was sourced from the respective About Us/Our Values pages of each brand’s website. Through the use of Chosic’s public playlist analyzer, musical metrics were derived using an algorithm, rather than collecting data directly from customers or listeners. Chosic utilizes the Spotify API to provide insights that are not accessible to the public directly. Since the Chosic platform was founded prior to API usage rule changes in 2024, so it is one of few existing programs that still uses the API. Each brand text was collected by hand from the website, only to score individual words, and the text is not reprinted or quoted elsewhere. Additionally, the NRC lexicon is used under its free non-commercial research access terms.
+
+# Fairness to Each Brand
+Another notable ethical consideration is the statements the project makes about companies after its analysis. For instance, stating that a brand’s music is not related to its brand language or identity may come across as calling the company “inauthentic”. However, the project avoids much of this risk because it makes claims about public playlists which do not always reflect the in-store music or intent behind the music. For this reason, any statement made about the connection/disconnect between music and brand language should be interpreted with caution, knowing that the music data is not based on in-store observations. Second, all brand text comes directly from the company’s website, so everything within those pages is strategic and correctly represents the company. In collecting the text this way, the project ensures that the company’s words are not misstated or construed. Finally, the exact same rules were applied to each brand to obtain the most comparable data.
+
+# Bias in Measurement Tools
+The NRC lexicon and Chosic playlist analyzer are two important tools in the project that both risk bias in measuring data. Firstly, the NRC lexicon matches words from the brand’s text with words that were rated by humans. In such, the scores for each work are given without context and only span the English language. This poses a notable issue as a couple of the brands in the project’s sample are European. Additionally, the Chosic platform uses Spotify’s proprietary model to derive music scores, but the model and its training data are not public. Further development of the project may attempt to resolve issues regarding context for brand language scoring and the true emotions experienced during a song. 
